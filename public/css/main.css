@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.banner{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: url(/public/image/IMG_0635.JPG);
+  flex-direction: column;
+  background-repeat: no-repeat;
+  height: 700px;
+  background-size: cover;
+}
+
+.tagline{
+  position: absolute;
+  margin-right: 80px;
+}
+
+.banner h1{
+  font-family: 'Merriweather', serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.banner h2{
+  font-family: 'Merriweather', serif;
+  font-size: 4rem;
+  font-weight: bold;
+  /* color:rgba(247, 84, 9, 0.979); */
+  color: rgba(132, 165, 157);
+}
+
+.banner p{
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  color: rgba(246, 189, 96);
+}
+
+.container1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tag{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Patua One', cursive;  
+  font-size: 2.8rem;
+  color: rgba(246, 189, 96);
+  opacity: 0.3;
+}
+
+.content{
+  font-family: 'Noto Serif', serif;
+  font-size: 1rem;
+  width: 60%;
+  padding-top: 2rem;
+}
+
+.p1,.p2,.p3{
+  color: #336B87;
+  font-size: 1.2rem;
+}
+
+.text{
+  padding-top: 0.5rem;
+}
+
+.main-img{
+  float: left;
+  margin-right: 1rem;
+}
+
+.slider h1{
+  /* font-family: 'Anton', sans-serif; */
+  font-family: 'Patua One', cursive;
+  font-size: 6rem;
+  color: rgba(246, 189, 96);
+  opacity: 0.3;
+}
+
+/* photo gallery */
+img{
+  max-width: 500px;
+}
+.slideshowcon{
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next{
+  right: 0;
+}
+
+.pointer:hover{
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+}
+
+.dot{
+  cursor: pointer;
+  width: 13px;
+  height: 13px;
+  margin: 4px 2px;
+  background-color: black;
+  opacity: 0.3;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.dot:hover, .active{
+  opacity: 0.5;
+}
+
+/* sticky footer */
+/* sticky footer */
+body,html{
+  height: 100%;
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  background-repeat:repeat-x;
+}
+
+.wrapper{
+  min-height: 100%;
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -30px;
+}
+
+.footer,
+.push {
+  height: 30px;
+	width:100%;
+}
+
+.footer{
+  font-family: 'Patua One', cursive;
+  font-size: 1rem;
+
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,29 @@
+.nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+}
+
+.nav li{
+  margin: 20px;
+  color: rgb(246, 189, 96);
+}
+
+.nav a{ 
+  color: #000; 
+}
+
+.nav a{
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav a:hover{
+  color: rgb(132, 165, 157);
+}
+
